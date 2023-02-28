@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,87 +7,92 @@
     <title>LinkTree</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Source+Code+Pro:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="topo">
-        <img src="img/eu.jpeg" alt="foto-de-adriano" class="minha-foto" />
-        <h1 class="nome">Adriano M. Campos</h1>
-        <h2 class="função">JavaScript FullStack</h2>
-        <ul class="social-group">
+    <div id="container">
+      <header id="topo">
+        <div id="perfil">
+          <img src="img/eu.jpeg" alt="foto-de-adriano" id="minha-foto" />
+          <h1 id="nome">Adriano M. Campos</h1>
+          <h2 id="função">JavaScript FullStack</h2>
+        </div>
+      </header>
+      
+      <main id="content">
+        <ul id="social-group">
           <li>
             <a href="https://www.instagram.com/driwcoder/" target="_blank"
-              ><img src="img/insta.svg" alt="" class="social-icons"
+              ><img src="img/insta.svg" alt="" id="social-icons"
             /></a>
           </li>
           <li>
             <a href="https://github.com/driwcoder" target="_blank"
-              ><img src="img/github.svg" alt="" class="social-icons"
+              ><img src="img/github.svg" alt="" id="social-icons"
             /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/adriano-campos-5763a5255/" target="_blank"
-              ><img src="img/linkedin.svg" alt="" class="social-icons"
+            <a
+              href="https://www.linkedin.com/in/adriano-campos-5763a5255/"
+              target="_blank"
+              ><img src="img/linkedin.svg" alt="" id="social-icons"
             /></a>
           </li>
           <li>
-            <a href="https://www.youtube.com/channel/UCJKlENIfqPVOmuiavkP4Tyg" target="_blank"
-              ><img src="img/youtube.png" alt="" class="social-icons"
+            <a
+              href="https://www.youtube.com/channel/UCJKlENIfqPVOmuiavkP4Tyg"
+              target="_blank"
+              ><img src="img/youtube.png" alt="" id="social-icons"
             /></a>
           </li>
         </ul>
-      </header>
-
-      <ul class="links-list">
-        <li>
-          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
-            <h1>Tudo Sobre <span>HTML</span></h1>
-            <h2>
-              Descubra como dominar a ferramenta de HTML para criação de sites.
-            </h2>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.w3schools.com/css/default.asp" target="_blank">
-            <h1>Tudo Sobre <span>CSS</span></h1>
-            <h2>
-              Descubra como dominar a ferramenta de CSS para criação e
-              estilização de sites, e aprenda sua interação com o HTML.
-            </h2>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.w3schools.com/js/default.asp" target="_blank">
-            <h1>Tudo Sobre <span>JavaScript</span></h1>
-            <h2>
-              Descubra como dominar a ferramenta que interage com seu projeto,
-              por trás dos panos, dando funcionalidades e dinamismo ao seu
-              projeto.
-            </h2>
-          </a>
-        </li>
-      </ul>
-
-      <ul class="links-list second">
-        <li>
-          <a href="https://wa.me/5521965313297" target="_blank">
-            <h1>Me chame no <span>WhatsApp</span></h1>
-            <h2>Para tratarmos de qualquer assunto que seja.</h2>
-          </a>
-        </li>
-        <li>
-          <a href="https://t.me/driwcoder" target="_blank">
-            <h1>Me chame no <span id="tele">Telegram</span></h1>
-            <h2>Dicas, tutoriais e muito mais.</h2>
-          </a>
-        </li>
-      </ul>
+        <ul id="links-list">
+          <li>
+            <a
+              href="https://www.w3schools.com/html/default.asp"
+              target="_blank"
+            >
+              <h1>Tudo Sobre <span>HTML</span></h1>
+              <h2>
+                Descubra como dominar a ferramenta de HTML para criação de
+                sites.
+              </h2>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/css/default.asp" target="_blank">
+              <h1>Tudo Sobre <span>CSS</span></h1>
+              <h2>
+                Descubra como dominar a ferramenta de CSS para criação e
+                estilização de sites, e aprenda sua interação com o HTML.
+              </h2>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+              <h1>Tudo Sobre <span>JavaScript</span></h1>
+              <h2>
+                Descubra como dominar a ferramenta que interage com seu projeto,
+                por trás dos panos, dando funcionalidades e dinamismo ao seu
+                projeto.
+              </h2>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5521965313297" target="_blank">
+              <h1>Me chame no <span>WhatsApp</span></h1>
+              <h2>Para tratarmos de qualquer assunto que seja.</h2>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/driwcoder" target="_blank">
+              <h1>Me chame no <span id="tele">Telegram</span></h1>
+              <h2>Dicas, tutoriais e muito mais.</h2>
+            </a>
+          </li>
+        </ul>
+      </main>
+      <footer id="footer">Developed by @driwcoder.</footer>
     </div>
-    <footer class="footer">Developed by @driwcoder.</footer>
   </body>
 </html>

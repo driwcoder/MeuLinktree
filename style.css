@@ -1,98 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: linear-gradient(159deg, rgb(255, 201, 165) 18%, rgba(254,255,209,1) 61%); 
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, #feffd1 0%, #ffc9a5);
+  font-family: "Source code pro";
 }
-.container{
-    height: 100vh;
-    max-width: 400px;
-    position: relative;
+a {
+  text-decoration: none;
+  color: #70de40;
+}
+h1 {
+  font-size: 15px;
+  color: #c4674b;
+}
+h2 {
+  font-size: 13px;
+  color: #8f4131;
+}
+span {
+  color: #fdaa77;
+}
+#container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 420px;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+#topo {
+}
+#perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#minha-foto {
+  width: 150px;
+  border: 2px inherit rgb(172, 111, 41);
+  border-radius: 33% 67% 59% 41% / 24% 44% 56% 76%;
+  box-shadow: 0px 0px 30px #fffed1;
+}
+#nome {
+  font-size: larger;
+  margin-top: 10px;
+}
+#função {
+  margin-top: 3px;
+}
+#social-group {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+#social-icons {
+  width: 25px;
+}
+ul li {
+  list-style: none;
+}
+#content {
+  padding-bottom: 2.5rem;
+}
+#links-list li {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
 }
 
-.minha-foto{
-    width: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 30px rgb(255, 254, 209);
-}
-.topo{
-    margin-top: 20px;
-    text-align: center;
-    color: rgb(253, 165, 106);
-}
-.nome{
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-.função{
-    margin-top: 0px;
-    font-style: italic;
-    font-size: 16px;
-}
-h1{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 15px;
-    padding: 15px 15px 0 15px;
-    color: rgb(196, 103, 75);
-}
-h2{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 12px;
-    padding: 7px 15px 15px 15px;
-    color: rgb(129, 65, 49);
-}
-.social-icons{
-    width: 25px;
-}
-.social-group{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-.links-list{
-    list-style: none;
-}
-.links-list li{
-    background-color: rgb(243, 246, 248);
-    margin: 2% 4%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px rgb(181, 182, 149);
-    border-style:inherit;
-    display: block;
-}
-.links-list li a h1 span {
-    color: rgb(253, 165, 106);
-}
-
-.second li a h1 span {
-    margin-top: 30px;
-    color: rgb(60, 204, 68);
-}
-#tele{
-    color: rgb(0, 153, 255);
-}
-a{
-    text-decoration: none;
-}
-footer{
-    background-color: rgb(99, 50, 38);
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-    color: beige;
-    width: 100%;
-    padding: 7px;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
+#footer {
+  position: sticky;
+  top: 100%;
+  width: 100%;
+  color: #8f4131;
+  text-align: center;
+  font-weight: 700;
 }
